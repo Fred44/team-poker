@@ -14,7 +14,7 @@ When all have voted the owner show vote and chat begin.
 ### Technology
 
 Project uses [Scala lang](https://scala-lang.org) and its functional idioms. I try to follow
-[Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) principle has much as possible. 
+[Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) principle as much as possible. 
 
 Dependencies:
  - Scala-test
