@@ -16,7 +16,7 @@ package object game {
       PlayerId(idGen.genId())
   }
 
-  case class Player ( playerId: PlayerId, name: String, email: Option[String] = None)
+  case class Player (id: PlayerId, name: String, email: Option[String] = None) extends Entity[PlayerId]
 
 
   case class Card (value: String) extends AnyVal with Value[String]

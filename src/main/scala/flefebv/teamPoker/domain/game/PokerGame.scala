@@ -73,7 +73,7 @@ case class PokerGame(
     }
 
   def getPlayer(playerId: PlayerId): Option[Player] =
-    players find(_.playerId == playerId)
+    players find(_.id == playerId)
 
   private def containsPlayer(playerName: String): Boolean =
     players exists(_.name == playerName)
