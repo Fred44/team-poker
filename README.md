@@ -17,7 +17,8 @@ Project uses [Scala lang](https://scala-lang.org) and its functional idioms. I t
 [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) principle as much as possible. 
 
 Dependencies:
- - Scala-test
+ - [Scala-test](http://www.scalatest.org)
+ - [Scala-mock](http://scalamock.org)
 
 ## Why
 
